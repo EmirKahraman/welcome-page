@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Homepage",
   "version": "1.2",
-  "description": "A fully customizable new tab page featuring user-uploaded backgrounds (images or videos, including animated formats like MP4/WebM), a bookmark-compatible speed dial system, and a visually dynamic interface that adapts to your content.",
+  "description": "Customizable new tab page with user-uploaded backgrounds (images or videos, including animated formats like MP4 and WebM). Features a bookmark-compatible speed dial for quick access. [SHIFT + right-click to clear backgorund]",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
