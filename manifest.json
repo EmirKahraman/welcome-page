@@ -1,21 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Welcome Page",
+  "name": "Homepage",
   "version": "1.2",
-  "description": "Custom new tab with background and bookmark-compatible speed dial.",
+  "description": "A fully customizable new tab page featuring user-uploaded backgrounds (images or videos, including animated formats like MP4/WebM), a bookmark-compatible speed dial system, and a visually dynamic interface that adapts to your content.",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "permissions": ["storage", "bookmarks", "fileSystem"],
-  "optional_permissions": ["fileSystem"],
-  "web_accessible_resources": [
-    {
-      "resources": ["assets/backgrounds/*","assets/icons/*"],
-      "matches": ["<all_urls>"]
-    }
-  ],
+  "permissions": ["storage", "bookmarks"],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self';"
   }
-  
 }
