@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Welcome Page",
+  "version": "1.2",
+  "description": "Custom new tab with background and bookmark-compatible speed dial.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": ["storage", "bookmarks", "fileSystem"],
+  "optional_permissions": ["fileSystem"],
+  "web_accessible_resources": [
+    {
+      "resources": ["assets/backgrounds/*","assets/icons/*"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+  
+}
