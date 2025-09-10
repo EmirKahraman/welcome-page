@@ -1,12 +1,12 @@
 {
   "manifest_version": 3,
-  "name": "Homepage",
-  "version": "1.2",
-  "description": "Customizable new tab page with user-uploaded backgrounds (images or videos, including animated formats like MP4 and WebM). Features a bookmark-compatible speed dial for quick access. [SHIFT + right-click to clear backgorund]",
+  "name": "Simple Tab Background",
+  "version": "1.0.0",
+  "description": "A simple extension to change your new tab background with a custom image or video. Shift+Right-Click to reset.",
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "permissions": ["storage", "bookmarks"],
+  "permissions": ["storage"],
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self';"
   }
