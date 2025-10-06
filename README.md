@@ -1,9 +1,9 @@
-# Simple Tab Background
+# welcome-page
 
 **Tagline:** Change your new tab background with one image or video.
 
 ## Description
-A clean, lightweight extension to customize your Chrome new tab background.
+A basic, lightweight extension to customize your new tab background.
 
 ## Features
 - Drag & drop or upload your own image or looping video (MP4/WebM)  
