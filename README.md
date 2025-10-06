@@ -25,8 +25,3 @@ A basic, lightweight extension to customize your new tab background.
 ## Privacy
 This extension does **not** collect or transmit any data.  
 All background media is stored locally in your browser via IndexedDB.
-
----
-
-## License
-MIT License
