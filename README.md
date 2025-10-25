@@ -1,4 +1,4 @@
-# Simple Tab Background
+# welcome-page
 
 A minimalist Chrome extension that personalizes your new tab background with local images or videos.
 
